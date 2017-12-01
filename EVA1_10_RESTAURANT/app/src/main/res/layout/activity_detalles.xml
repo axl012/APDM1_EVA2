@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hipo.prop.app.axel.com.eva1_10_restaurant.Detalles">
+
+    <ImageView
+        android:id="@+id/imgVwIma"
+        android:layout_width="372dp"
+        android:layout_height="274dp"
+        app:srcCompat="@drawable/barrafina2x" />
+
+    <TextView
+        android:id="@+id/txtVwNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Barra Fina"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/txtVwDir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Algna calle en algun lugar"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtVwDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Este es un restaurant muy rico y fino que es altamente recomendado"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVwTel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4182911"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtVwEm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="barrafina@hotmail.com"
+        android:textSize="18sp" />
+
+</LinearLayout>

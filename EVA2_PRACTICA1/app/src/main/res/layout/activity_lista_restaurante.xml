@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="hipo.prop.app.axel.com.eva2_practica1.lista_restaurante"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_weight="0.02">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:adjustViewBounds="false"
+            android:saveEnabled="false"
+            android:scaleType="center"
+            app:srcCompat="@drawable/barrafina"
+            tools:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/txtVwTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtVwNombre"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="Cafe gourmet"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/txtVwNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="54dp"
+            android:fontFamily="serif"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="Barra fina"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:textStyle="normal|bold|italic" />
+
+    </RelativeLayout>
+
+</LinearLayout>
